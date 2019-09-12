@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C6D623E-9883-2940-9D7C-962BAE1C554C" name="DIM_PROD_SERV">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:23:56 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_PROD_SERV" id="DBEEA28F-CF65-01C8-AC19-1B49C776302D">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:23:56 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PROD_SERV" id="DC6E14E6-2FA8-ED93-4DA4-1D8653C0F7F3">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:23:56 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PROD_SERV" id="7DFB6855-6090-A77B-C1C5-4EE28C00352E">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:23:56 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_PROD_SERV" id="224C182F-F4CE-1B02-AE1F-40E074B8D1B6">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:24:32 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ORIGEM_DADOS" id="2F5C4204-6C10-45E3-EC60-705683EAF61E">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:23:56 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="08BF5DC7-7E06-E8E8-E2B9-DBD8B74BEDAE" name="DIM_PROD_SERV_PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:23:56 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>DBEEA28F-CF65-01C8-AC19-1B49C776302D</newElementsIDs>
+<usedAttributes>
+<attributeRef>DBEEA28F-CF65-01C8-AC19-1B49C776302D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FE15A83-4CB0-76AE-1660-AD746B7BAA4D" name="DIM_TEMPO">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:20:32 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_TEMPO" id="D12E1FF0-2AA5-335D-536A-CE06A80FEF27">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:20:41 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_EVENTO" id="0470E134-205D-720B-E6A1-DED8DBDEE5FA">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:20:51 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DIA" id="08E6FEF4-5A92-FAC8-9985-169B82EB674C">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:21:00 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_MES" id="89BB1937-5825-B939-8FB9-D2AE6D9FD09E">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:21:09 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ANO" id="006D4A97-557D-C33B-B468-8C43D9B90A83">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:21:21 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_DIA_SEMANA" id="BAA55860-0FA8-CB6D-1214-615ED36E084D">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:21:30 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_TRIMESTRE" id="F6D3633E-1DBF-9940-4CB5-FDE2DB6F9D52">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:21:52 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9AB82607-32D7-0301-51BD-FDB766FC70E5" name="DIM_TEMPO PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:22:08 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D12E1FF0-2AA5-335D-536A-CE06A80FEF27</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

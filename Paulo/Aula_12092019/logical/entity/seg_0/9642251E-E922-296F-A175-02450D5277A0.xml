@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9642251E-E922-296F-A175-02450D5277A0" name="FTO_VENDA">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:26:57 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<typeID>1</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_UNID_HOSPITALAR" id="4F186225-82FC-0D80-E70C-73D3527C9D27">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:28:03 UTC</createdTime>
+<generatorID>9423C624-9555-9057-BA3A-0895D28ABD8E</generatorID>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<referedAttribute>AF238EA5-4D2A-BE5E-6224-1B3B60F4E761</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_TEMPO" id="D10107EC-E82B-A478-0D24-992993250DF4">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:28:08 UTC</createdTime>
+<generatorID>09DBF198-6DD0-2BA2-423D-8F5724A45AA9</generatorID>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<referedAttribute>D12E1FF0-2AA5-335D-536A-CE06A80FEF27</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_PROD_SERV" id="727C0BBE-AB8D-B9CD-400C-8B211B720B52">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:28:13 UTC</createdTime>
+<generatorID>8E5BA52E-6F25-17BC-1BB3-737C154D5348</generatorID>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<referedAttribute>DBEEA28F-CF65-01C8-AC19-1B49C776302D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_UNITARIO" id="A461751F-E9D1-3C07-7DCB-B8A8AE94F84C">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:27:04 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_QTDE" id="464F92B9-300A-327F-A5C7-7F0CE01DB7EB">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:27:17 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_TOTAL" id="75C46394-EBC9-F8D0-5C1B-9E15AC165D43">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:27:28 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_ICMS" id="7AB45513-70EF-B2F8-0EB5-0923737C32D1">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:27:38 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9E46F82-35F0-0774-307E-096901BC9DF7" name="FTO_VENDA PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-09-12 11:27:57 UTC</createdTime>
+<ownerDesignName>Aula_12092019</ownerDesignName>
+<engineerTo>
+<item key="BD664018-AC26-AF7E-021A-DF952A60B844" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4F186225-82FC-0D80-E70C-73D3527C9D27</attributeRef>
+<attributeRef>D10107EC-E82B-A478-0D24-992993250DF4</attributeRef>
+<attributeRef>727C0BBE-AB8D-B9CD-400C-8B211B720B52</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
