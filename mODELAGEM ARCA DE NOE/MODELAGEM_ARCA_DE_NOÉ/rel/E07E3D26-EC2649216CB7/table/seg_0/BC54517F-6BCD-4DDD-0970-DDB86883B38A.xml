@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC54517F-6BCD-4DDD-0970-DDB86883B38A" name="DIM_LOCALIZACAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>CA734DB6-8161-C3C7-F498-4126EE0DB59F</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_LOCALIZACAO" id="0E5D25FD-7D9C-D890-AAEB-F316308066AA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>59B10FB5-A426-6287-BD52-0A1A1FAE3CCE</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ESTADO" id="7B31BABE-A415-466F-FB7E-7DD6E752A8F6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>A78DFF49-282B-D012-49FD-503A94299767</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_CIDADE" id="2F7ED1FE-9CA8-5C84-E5BE-5F07722C2CC8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>97ED943D-0945-FB9B-3181-D3525DFE0F43</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_BAIRRO" id="E813E400-DF0B-EE19-BAE8-5DC061DB5C14">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>CE28238C-0F61-CEE6-5104-E14DEE15F60F</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2CE5A36-079B-6193-75FA-442F9F6E9C5A" name="DIM_LOCALIZACAO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>BCC21BDF-FB8A-36B6-8E9F-C433C68C8FD0</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E5D25FD-7D9C-D890-AAEB-F316308066AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

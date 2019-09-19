@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="968CFD0A-AB34-F2E5-1B71-19D8052A5661" name="FATO_CONSULTA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>F21A369D-E4E8-5006-5649-42AC4F91C5B0</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_FTO" id="236D4ABA-F2B5-3564-D162-3F3CA7251323">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>B4B055A4-358E-8E21-B603-6500AE642049</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_CONSULTA" id="1937BF1A-88E9-4F94-E5A6-DB5D40B69C23">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>169D1489-9103-164D-66B4-05F3CBB78FB7</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SK_LOCALIZACAO_CLIENTE" id="0F49326B-1475-B3D8-4A64-DF1D0ED034A7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>2F6C7306-4B78-3B33-D430-975430E805BA</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63E43FD6-BAB8-EDE2-9BE8-CC7A4ECAE21C" referredColumn="0E5D25FD-7D9C-D890-AAEB-F316308066AA"/>
+</associations>
+</Column>
+<Column name="SK_LOCALIZACAO_LOJA" id="C62F8E06-7678-355F-9231-C64C9BE892A2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>0E7C6392-589C-2C6A-C60E-E36153417D54</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CB45924-EA82-C545-13F4-BF3A4E40FEA9" referredColumn="0E5D25FD-7D9C-D890-AAEB-F316308066AA"/>
+</associations>
+</Column>
+<Column name="SK_CLIENTE" id="E7A73EBA-05CF-64EB-7703-F6BA596EF2B0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>5D306409-4CC5-1A2F-D610-A36E2BB4C7C2</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="647381B4-CD0B-594D-B00B-74D31D91DA10" referredColumn="3DBCFC28-4684-485F-12CB-1B2924CB3E33"/>
+</associations>
+</Column>
+<Column name="VL_DESCONTO" id="6B7DE55B-1996-2747-FA1A-C7C53BDBE4B0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:44:30 UTC</createdTime>
+<generatorID>92A8EF04-69BE-E341-2BCE-4B732C1D9093</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_IMPOSTO" id="4B74A562-1397-9902-5BAB-5429AF747ABC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:44:30 UTC</createdTime>
+<generatorID>EB83DE1B-A9AF-C00B-9955-4F7D7E61C60E</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81F90D5B-BBE6-0F4A-D92C-155C01E27E22" name="FATO_CONSULTA_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>96EA7D47-5935-528B-3C4D-5FAC0E72EACB</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="236D4ABA-F2B5-3564-D162-3F3CA7251323"/>
+<colUsage columnID="0F49326B-1475-B3D8-4A64-DF1D0ED034A7"/>
+<colUsage columnID="C62F8E06-7678-355F-9231-C64C9BE892A2"/>
+<colUsage columnID="E7A73EBA-05CF-64EB-7703-F6BA596EF2B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4E3A9FA-4C82-FE15-EFB7-4DB310CAFAE4" name="FK_DIM_LOCALIZACAO_CLIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>6024D069-2E8A-A204-E6E6-8D84162089D2</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F49326B-1475-B3D8-4A64-DF1D0ED034A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE5289B3-A29B-4F07-48A6-63DD352DF1A9" name="FK_DIM_LOCALIZACAO_LOJA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>02C9F0E1-FE2A-C7B4-2022-019BD8AD8CF1</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C62F8E06-7678-355F-9231-C64C9BE892A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFE16D1C-F3B6-FC8E-CCE4-4B32F57FE7E1" name="FK_DIM_CLIENTE_">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>53C8754C-D966-F6D5-AEBF-15C87FD496F9</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7A73EBA-05CF-64EB-7703-F6BA596EF2B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

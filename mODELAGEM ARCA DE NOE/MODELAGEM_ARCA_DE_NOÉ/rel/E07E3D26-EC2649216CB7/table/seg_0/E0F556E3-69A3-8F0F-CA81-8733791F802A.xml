@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0F556E3-69A3-8F0F-CA81-8733791F802A" name="DIM_CLIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>ADF7431C-A1FF-A38F-43A0-73B0223C958A</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_CLIENTE" id="3DBCFC28-4684-485F-12CB-1B2924CB3E33">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>101F928A-6831-710D-8BC2-92457F8F3065</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_SEXO" id="235343D0-D3E2-09FF-129E-A87469F8C7A3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>A46D6F34-4CF6-4B25-EC1C-14A443157DC5</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ESCOLARIDADE" id="962384C2-E66B-B504-588F-90E168F01965">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>78AA77D2-7B89-5F38-363B-AB7CED95D5DE</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ESTADO_CIVIL" id="9DD406CD-D0CF-2C09-9128-FA7ADE06AB26">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>01B1743C-576C-C883-4B0C-CE55F21FCDFE</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_FAXIA_ETARIA" id="93EBD77C-C919-16DB-C2B5-4061ACA42253">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>59903990-4C95-D9BB-6E5C-AA6263E1CDA7</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="926F99E4-86C8-DE5F-0113-722655CF2982" name="DIM_CLIENTE_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>4014DA39-E6E6-FAE3-BB38-69CE47D8B13D</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DBCFC28-4684-485F-12CB-1B2924CB3E33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

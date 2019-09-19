@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FATO CONSULTA DIM LOCALIZACAO FKv2" directorySegmentName="seg_0" id="02C9F0E1-FE2A-C7B4-2022-019BD8AD8CF1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:25 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<sourcePk>BCC21BDF-FB8A-36B6-8E9F-C433C68C8FD0</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CA734DB6-8161-C3C7-F498-4126EE0DB59F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F21A369D-E4E8-5006-5649-42AC4F91C5B0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

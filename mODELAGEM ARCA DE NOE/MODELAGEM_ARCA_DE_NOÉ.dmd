@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELAGEM_ARCA_DE_NOÉ" id="26625CD0-BE9E-167A-D964-08B63CAEAC13" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:23:36 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>26625CD0-BE9E-167A-D964-08B63CAEAC13</designId>
+</OSDM_Design>

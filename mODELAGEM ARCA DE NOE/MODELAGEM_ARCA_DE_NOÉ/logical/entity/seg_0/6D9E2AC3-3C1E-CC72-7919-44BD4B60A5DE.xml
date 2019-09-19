@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D9E2AC3-3C1E-CC72-7919-44BD4B60A5DE" name="DIM ANIMAL">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:29:30 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK ANIMAL" id="3635F510-6E50-7886-9A90-C875CA549F8B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:29:41 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS ESPECIE" id="FFEA6576-88E5-12C9-195B-24F70746829F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:31:45 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS RACA" id="0537532B-7120-6144-2C58-6CE7F0D21A11">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:32:13 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS FAIXA ETARIA" id="D2429FB0-3C1E-11D1-F2C3-98D6569FDEA3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:32:36 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7417040-A26B-3AE0-DAD9-E8D109FBB428" name="DIM_ANIMAL_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:30:59 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3635F510-6E50-7886-9A90-C875CA549F8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

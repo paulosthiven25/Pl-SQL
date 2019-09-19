@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F21A369D-E4E8-5006-5649-42AC4F91C5B0" name="FATO CONSULTA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:38:13 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<typeID>1</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK FTO" id="B4B055A4-358E-8E21-B603-6500AE642049">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:38:27 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL CONSULTA" id="169D1489-9103-164D-66B4-05F3CBB78FB7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:39:42 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK LOCALIZACAO LOJA" id="2F6C7306-4B78-3B33-D430-975430E805BA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:20 UTC</createdTime>
+<generatorID>6024D069-2E8A-A204-E6E6-8D84162089D2</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<referedAttribute>59B10FB5-A426-6287-BD52-0A1A1FAE3CCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK LOCALIZACAO CLIENTE" id="0E7C6392-589C-2C6A-C60E-E36153417D54">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:25 UTC</createdTime>
+<generatorID>02C9F0E1-FE2A-C7B4-2022-019BD8AD8CF1</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<referedAttribute>59B10FB5-A426-6287-BD52-0A1A1FAE3CCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIM CLIENTE SK CLIENTE" id="5D306409-4CC5-1A2F-D610-A36E2BB4C7C2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:39 UTC</createdTime>
+<generatorID>53C8754C-D966-F6D5-AEBF-15C87FD496F9</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<referedAttribute>101F928A-6831-710D-8BC2-92457F8F3065</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_DESCONTO" id="92A8EF04-69BE-E341-2BCE-4B732C1D9093">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:43:24 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_IMPOSTO" id="EB83DE1B-A9AF-C00B-9955-4F7D7E61C60E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:44:08 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="96EA7D47-5935-528B-3C4D-5FAC0E72EACB" name="FATO_CONSULTA_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:39:12 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4B055A4-358E-8E21-B603-6500AE642049</attributeRef>
+<attributeRef>2F6C7306-4B78-3B33-D430-975430E805BA</attributeRef>
+<attributeRef>0E7C6392-589C-2C6A-C60E-E36153417D54</attributeRef>
+<attributeRef>5D306409-4CC5-1A2F-D610-A36E2BB4C7C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4CA44CF6-3CF4-5C18-F0B2-3DEE2150F974" mainViewID="458B330C-3D0D-D4A6-E145-2BB4FC1E2337">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:23:36 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

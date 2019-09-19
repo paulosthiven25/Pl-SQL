@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FATO CONSULTA DIM CLIENTE FK" directorySegmentName="seg_0" id="53C8754C-D966-F6D5-AEBF-15C87FD496F9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:39 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<sourcePk>4014DA39-E6E6-FAE3-BB38-69CE47D8B13D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ADF7431C-A1FF-A38F-43A0-73B0223C958A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F21A369D-E4E8-5006-5649-42AC4F91C5B0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

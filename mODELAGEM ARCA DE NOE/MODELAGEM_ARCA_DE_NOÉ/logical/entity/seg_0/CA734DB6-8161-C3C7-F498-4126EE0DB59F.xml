@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA734DB6-8161-C3C7-F498-4126EE0DB59F" name="DIM LOCALIZACAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:35:50 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK LOCALIZACAO" id="59B10FB5-A426-6287-BD52-0A1A1FAE3CCE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:35:53 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS ESTADO" id="A78DFF49-282B-D012-49FD-503A94299767">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:36:06 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS CIDADE" id="97ED943D-0945-FB9B-3181-D3525DFE0F43">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:36:34 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS BAIRRO" id="CE28238C-0F61-CEE6-5104-E14DEE15F60F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:36:50 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BCC21BDF-FB8A-36B6-8E9F-C433C68C8FD0" name="DIM_LOCALIZACAO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:36:12 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E07E3D26-2255-B8C5-1940-EC2649216CB7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59B10FB5-A426-6287-BD52-0A1A1FAE3CCE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

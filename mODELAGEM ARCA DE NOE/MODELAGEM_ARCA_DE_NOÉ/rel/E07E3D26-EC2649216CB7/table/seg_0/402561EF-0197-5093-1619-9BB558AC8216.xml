@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="402561EF-0197-5093-1619-9BB558AC8216" name="DIM_TEMPO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>46819FE8-FAE0-B1BA-EA59-9E365153C5E4</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_TEMPO" id="E5606468-BB97-712D-F5CF-86DD372734F1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>9861CA16-330A-2509-4A57-EA8CA5F2A460</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ANO" id="FB03BC0C-B934-8F8E-E07E-B3C51A5B9A94">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>2FE45001-7754-FCDA-18BD-5231256254F3</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_MES" id="50443285-1E9C-50AC-7F57-FA3E62965D02">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>A14BF418-99D2-2D7C-227D-D9E5EDC8DDD4</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_DIA" id="24247905-A9D8-40FE-F277-A47F8943A5E5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>6C931E1E-69E6-E977-A48E-EEB080E6D029</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E64974B-FCBC-27E6-3C4D-B6ADD2F89AEF" name="DIM_TEMPO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:40:49 UTC</createdTime>
+<generatorID>FEF59CCD-2E8A-ED1C-F917-BE13526B2909</generatorID>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5606468-BB97-712D-F5CF-86DD372734F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

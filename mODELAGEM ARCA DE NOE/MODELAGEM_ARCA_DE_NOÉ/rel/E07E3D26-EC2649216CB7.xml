@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="E07E3D26-2255-B8C5-1940-EC2649216CB7" mainViewID="7D5BF168-DDF6-9B21-439B-9EFAC1F93D54">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-09-19 12:24:09 UTC</createdTime>
+<ownerDesignName>MODELAGEM_ARCA_DE_NOÉ</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
